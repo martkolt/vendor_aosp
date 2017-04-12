@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     MatLog
 
+# Include PA GApps config
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/install/gapps-config.txt:install/gapps-config.txt
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
