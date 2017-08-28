@@ -37,6 +37,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
+# Bootanimation
+PRODUCT_COPY_FILES += vendor/aosp/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Version
 CUSTOM_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-mod
 
