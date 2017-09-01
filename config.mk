@@ -9,6 +9,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
