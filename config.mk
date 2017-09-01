@@ -14,6 +14,11 @@ BOARD_SEPOLICY_DIRS += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 # Lineage apps
 PRODUCT_PACKAGES += \
     Eleven \
