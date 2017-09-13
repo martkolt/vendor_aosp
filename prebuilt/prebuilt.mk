@@ -1,3 +1,4 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    Turbo
+    Turbo \
+    Launcher3
