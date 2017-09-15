@@ -1,4 +1,5 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Turbo \
-    Launcher3
+    Launcher3 \
+    Phonograph
