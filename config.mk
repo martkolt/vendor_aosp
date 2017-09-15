@@ -52,8 +52,5 @@ PRODUCT_COPY_FILES += vendor/aosp/prebuilt/etc/apns-conf.xml:system/etc/apns-con
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
 
-# Version
-CUSTOM_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-mod
-
 $(call inherit-product-if-exists, vendor/aosp/prebuilt/prebuilt.mk)
 $(call inherit-product-if-exists, vendor/aosp/sepolicy/sepolicy.mk)
