@@ -4,7 +4,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Phonograph \
     OnePlusCamera \
-    OnePlusCameraService
+    OnePlusCameraService \
+    FirefoxFocus
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
