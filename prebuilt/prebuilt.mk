@@ -2,8 +2,7 @@
 PRODUCT_PACKAGES += \
     Turbo \
     Launcher3 \
-    Phonograph \
-    FirefoxFocus
+    Phonograph
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
