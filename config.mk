@@ -48,7 +48,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
 
 $(call inherit-product-if-exists, vendor/aosp/prebuilt/prebuilt.mk)
-
-ifeq ($(TARGET_BUILDIN_GAPPS),true)
-    $(call inherit-product, vendor/gapps/gapps.mk)
-endif
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
