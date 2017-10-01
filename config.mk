@@ -15,6 +15,16 @@ PRODUCT_PACKAGES += \
     PixelTheme \
     Stock
 
+# OmniROM apps
+PRODUCT_PACKAGES += \
+    OmniClockOSS \
+    OmniSwitch \
+    OmniStyle \
+    MusicFX \
+    audio_effects.conf \
+    libcyanogen-dsp \
+    MatLog
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
