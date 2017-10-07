@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 # OmniROM apps
 PRODUCT_PACKAGES += \
     OmniClockOSS \
+    OmniJaws \
     OmniSwitch \
     OmniStyle \
     MusicFX \
