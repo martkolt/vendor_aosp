@@ -26,6 +26,16 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     MatLog
 
+# ExFAT support
+WITH_EXFAT ?= true
+ifeq ($(WITH_EXFAT),true)
+TARGET_USES_EXFAT := true
+PRODUCT_PACKAGES += \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat
+endif
+
 # Include PA GApps config
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/install/gapps-config.txt:install/gapps-config.txt
