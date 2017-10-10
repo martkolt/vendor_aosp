@@ -36,6 +36,12 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 endif
 
+# NTFS support
+PRODUCT_PACKAGES += \
+    mount.ntfs \
+    fsck.ntfs \
+    mkfs.ntfs
+
 # Include PA GApps config
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/install/gapps-config.txt:install/gapps-config.txt
