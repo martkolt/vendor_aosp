@@ -26,6 +26,12 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     MatLog
 
+# Additional tools
+PRODUCT_PACKAGES += \
+    mkshrc_vendor \
+    toybox_vendor \
+    sh_vendor
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
