@@ -70,6 +70,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/mkshrc:system/etc/mkshrc
 
+# Init.d support
+PRODUCT_PACKAGES += \
+    init.d.rc
+
+PRODUCT_COPY_FILES += \
+   system/core/rootdir/sysinit:system/bin/sysinit
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
