@@ -1,8 +1,7 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Turbo \
-    Launcher3 \
-    Phonograph
+    Launcher3
 
 # Bootanimation
 PRODUCT_COPY_FILES += \

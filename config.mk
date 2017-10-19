@@ -23,8 +23,7 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     MusicFX \
     audio_effects.conf \
-    libcyanogen-dsp \
-    MatLog
+    libcyanogen-dsp
 
 # Additional tools
 PRODUCT_PACKAGES += \
