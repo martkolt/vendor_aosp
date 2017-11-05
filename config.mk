@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
 
 # Common sepolicy
 BOARD_SEPOLICY_DIRS += \
-    vendor/aosp/sepolicy/common
+    vendor/aosp/sepolicy/common \
+    vendor/aosp/sepolicy/qcom
 
 # Telephony packages
 PRODUCT_PACKAGES += \
