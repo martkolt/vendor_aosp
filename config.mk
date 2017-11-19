@@ -10,11 +10,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
-# Themes
-PRODUCT_PACKAGES += \
-    PixelTheme \
-    Stock
-
 # OmniROM apps
 PRODUCT_PACKAGES += \
     OmniClockOSS \
