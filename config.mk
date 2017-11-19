@@ -10,6 +10,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Lineage apps
+PRODUCT_PACKAGES += \
+    Recorder
+
 # OmniROM apps
 PRODUCT_PACKAGES += \
     OmniClockOSS \
