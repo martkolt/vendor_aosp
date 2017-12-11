@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
 
 # Lineage apps
 PRODUCT_PACKAGES += \
+    Eleven \
     Recorder
 
 # OmniROM apps
