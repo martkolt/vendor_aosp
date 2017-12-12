@@ -10,10 +10,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
-# Lineage apps
+# LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
     Recorder
+
+# CypherOS apps
+PRODUCT_PACKAGES += \
+    Luna
 
 # OmniROM apps
 PRODUCT_PACKAGES += \
