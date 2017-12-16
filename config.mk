@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
     init.d.rc
 
 PRODUCT_COPY_FILES += \
-   system/core/rootdir/sysinit:system/bin/sysinit
+   system/core/rootdir/sysinit:system/vendor/bin/sysinit
 
 # ExFAT support
 WITH_EXFAT ?= true
