@@ -6,6 +6,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
+# Common sepolicy
+BOARD_SEPOLICY_DIRS += \
+    vendor/aosp/sepolicy
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     Stk
