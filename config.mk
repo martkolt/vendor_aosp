@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
     toybox_vendor \
     sh_vendor
 
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/bin/vi:system/bin/vi
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
