@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/bin/vi:system/bin/vi
 
+# mkshrc
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/etc/mkshrc:system/etc/mkshrc
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
