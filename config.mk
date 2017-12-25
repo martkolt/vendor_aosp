@@ -16,8 +16,15 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
+    DeepPurpleTheme \
+    IndigoTheme \
+    PinkTheme \
     PixelTheme \
-    Stock
+    PurpleTheme \
+    RedTheme \
+    SkyBlueTheme \
+    Stock \
+    YellowTheme
 
 # Lineage apps
 PRODUCT_PACKAGES += \
