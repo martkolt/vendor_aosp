@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     RedTheme \
     SkyBlueTheme \
     Stock \
+    TealTheme \
     YellowTheme
 
 # Lineage apps
