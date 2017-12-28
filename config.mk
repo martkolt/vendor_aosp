@@ -34,7 +34,13 @@ PRODUCT_PACKAGES += \
 
 # LineageOS tools
 PRODUCT_PACKAGES += \
-    vim
+    7z \
+    htop \
+    lib7z \
+    unrar \
+    unzip \
+    vim \
+    zip
 
 # OmniROM apps
 PRODUCT_PACKAGES += \
