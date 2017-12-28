@@ -27,10 +27,14 @@ PRODUCT_PACKAGES += \
     TealTheme \
     YellowTheme
 
-# Lineage apps
+# LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
     Recorder
+
+# LineageOS tools
+PRODUCT_PACKAGES += \
+    vim
 
 # OmniROM apps
 PRODUCT_PACKAGES += \
@@ -47,9 +51,6 @@ PRODUCT_PACKAGES += \
     mkshrc_vendor \
     toybox_vendor \
     sh_vendor
-
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/bin/vi:system/bin/vi
 
 # mkshrc
 PRODUCT_COPY_FILES += \
