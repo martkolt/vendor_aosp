@@ -27,11 +27,6 @@ PRODUCT_PACKAGES += \
     TealTheme \
     YellowTheme
 
-# LineageOS apps
-PRODUCT_PACKAGES += \
-    Eleven \
-    Recorder
-
 # LineageOS tools
 PRODUCT_PACKAGES += \
     7z \
@@ -45,11 +40,9 @@ PRODUCT_PACKAGES += \
 # OmniROM apps
 PRODUCT_PACKAGES += \
     OmniClockOSS \
-    OmniJaws \
     OmniSwitch \
-    OmniStyle \
+    Phonograph \
     MusicFX \
-    audio_effects.conf \
     libcyanogen-dsp
 
 # Additional tools
