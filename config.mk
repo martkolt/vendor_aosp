@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
     TealTheme \
     YellowTheme
 
+# LineageOS apps
+PRODUCT_PACKAGES += \
+    Jelly
+
 # LineageOS tools
 PRODUCT_PACKAGES += \
     7z \
