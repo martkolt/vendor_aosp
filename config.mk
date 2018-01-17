@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
 
 # OmniROM apps
 PRODUCT_PACKAGES += \
+    Launcher3Dark \
     OmniClockOSS \
     OmniSwitch \
     Phonograph \
