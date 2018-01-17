@@ -92,4 +92,7 @@
         <item>com.google.android.deskclock</item>
     </string-array>
 
+    <!-- Enable doze AlwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
 </resources>
