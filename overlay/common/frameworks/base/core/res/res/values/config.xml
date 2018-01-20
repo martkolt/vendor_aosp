@@ -93,6 +93,7 @@
     </string-array>
 
     <!-- Enable doze AlwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayEnabledDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
 </resources>
