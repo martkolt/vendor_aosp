@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# OTA
+PRODUCT_PACKAGES += \
+    NitrogenOTA \
+    libbypass
+
 # Themes
 PRODUCT_PACKAGES += \
     DeepPurpleTheme \
