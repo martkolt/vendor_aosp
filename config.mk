@@ -75,7 +75,11 @@ PRODUCT_PACKAGES += \
     init.d.rc
 
 PRODUCT_COPY_FILES += \
-   system/core/rootdir/sysinit:system/vendor/bin/sysinit
+    system/core/rootdir/sysinit:system/vendor/bin/sysinit
+
+# Init scripts
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
 
 # ExFAT support
 WITH_EXFAT ?= true
