@@ -86,15 +86,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
 
-# ExFAT support
-WITH_EXFAT ?= true
-ifeq ($(WITH_EXFAT),true)
-TARGET_USES_EXFAT := true
+# exFAT tools
 PRODUCT_PACKAGES += \
-    mount.exfat \
     fsck.exfat \
     mkfs.exfat
-endif
 
 # NTFS support
 PRODUCT_PACKAGES += \
