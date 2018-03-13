@@ -92,13 +92,6 @@ PRODUCT_PACKAGES += \
     fsck.ntfs \
     mkfs.ntfs
 
-# Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/aosp/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/aosp/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
-    vendor/aosp/prebuilt/bin/blacklist:system/addon.d/blacklist
-
 # Include PA GApps config
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/install/gapps-config.txt:install/gapps-config.txt
