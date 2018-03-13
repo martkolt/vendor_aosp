@@ -1,3 +1,12 @@
+# AOSP packages
+PRODUCT_PACKAGES += \
+    Camera2 \
+    Launcher3 \
+    messaging \
+    SoundRecorder \
+    Terminal \
+    WallpaperPicker
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
