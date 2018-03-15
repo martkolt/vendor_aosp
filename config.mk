@@ -63,6 +63,9 @@ PRODUCT_PACKAGES += \
     MusicFX \
     libcyanogen-dsp
 
+PRODUCT_PACKAGES += \
+    ExtraFonts
+
 # Additional tools
 PRODUCT_PACKAGES += \
     mkshrc_vendor \

@@ -93,7 +93,11 @@
     <bool name="config_dozeAlwaysOnDisplayEnabledDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
-   <!-- Set icon mask to circle -->
-   <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string>
+    <!-- Set icon mask to circle -->
+    <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string>
 
+    <!-- System font packages (overlay in vendor) -->
+    <string-array name="config_fontPackages" translatable="false">
+        <item>org.omnirom.fonts</item>
+    </string-array>
 </resources>
