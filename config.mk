@@ -25,8 +25,7 @@ PRODUCT_BOOT_JARS += \
 
 # OTA
 PRODUCT_PACKAGES += \
-    NitrogenOTA \
-    libbypass
+    SlimOTA
 
 # Themes
 PRODUCT_PACKAGES += \
