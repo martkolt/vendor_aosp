@@ -43,8 +43,7 @@ PRODUCT_PACKAGES += \
 # LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
-    Jelly \
-    Snap
+    Jelly
 
 # LineageOS tools
 PRODUCT_PACKAGES += \
