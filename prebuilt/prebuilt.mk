@@ -1,6 +1,7 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    Turbo
+    Turbo \
+    Launcher3
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
