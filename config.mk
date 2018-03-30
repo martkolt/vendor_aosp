@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
 # LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
-    Jelly
+    Jelly \
+    Trebuchet
 
 # LineageOS tools
 PRODUCT_PACKAGES += \
