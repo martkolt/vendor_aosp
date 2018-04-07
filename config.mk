@@ -81,7 +81,8 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
+    vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc \
+    vendor/aosp/prebuilt/etc/init/lineage-updates.rc:system/etc/init/lineage-updates.rc
 
 # exFAT tools
 PRODUCT_PACKAGES += \
