@@ -84,6 +84,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc \
     vendor/aosp/prebuilt/etc/init/lineage-updates.rc:system/etc/init/lineage-updates.rc
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/etc/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml
+
 # exFAT tools
 PRODUCT_PACKAGES += \
     fsck.exfat \
