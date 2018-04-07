@@ -23,10 +23,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# OTA
-PRODUCT_PACKAGES += \
-    SlimOTA
-
 # Themes
 PRODUCT_PACKAGES += \
     DeepPurpleTheme \
@@ -44,7 +40,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Eleven \
     Jelly \
-    Trebuchet
+    Trebuchet \
+    Updater
 
 # LineageOS tools
 PRODUCT_PACKAGES += \
