@@ -1,9 +1,0 @@
-# Common OTA URL for all devices
-
-ota_url=https://raw.githubusercontent.com/Oreo-onyx/OTA/master/ota.xml
-release_type=Stable
-device_name=ro.ota.device
-version_source=ro.ota.version
-version_delimiter=-
-version_position=2
-version_format=yyyyMMdd
