@@ -40,7 +40,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Eleven \
     Jelly \
-    Trebuchet \
     Updater
 
 # LineageOS tools
