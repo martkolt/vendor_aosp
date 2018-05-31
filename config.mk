@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3Dark \
     OmniClockOSS \
-    OmniJaws \
     OmniSwitch \
     Phonograph \
     MusicFX \
